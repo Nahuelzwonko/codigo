@@ -9,7 +9,6 @@ class VistaController extends Controller
 {
     public function vista()
     {
-        return view('Vista');
+        return view('vista');
     }
-
 }
