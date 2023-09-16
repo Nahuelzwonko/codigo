@@ -9,7 +9,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="{{ asset('favicon/favicon.png') }}" type="image/x-icon">
-    @vite('resources/css/app.css')
+    {{-- @vite('resources/css/app.css') --}}
     <style>
         .swiper {
             width: 100%;
@@ -30,7 +30,7 @@
 <body>
     @yield('main-content')
     <div class="cursor"></div>
-    @vite('resources/js/app.js')
+    {{-- @vite('resources/js/app.js') --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
