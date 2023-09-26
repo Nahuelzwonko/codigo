@@ -1,5 +1,6 @@
 @extends('layouts.template')
 @section('main-content')
+@include('include.banner')
     {{-- section 1 --}}
     <section class="panel w-full h-full sm:h-[100vh] bg-black relative border-none">
         @include('include.nav')
