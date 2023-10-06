@@ -36,6 +36,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script>
+        // Espera 10 segundos antes de mostrar el banner
+setTimeout(function() {
+    document.getElementById('bottom-banner').style.display = 'block';
+}, 10000); // 10000 milisegundos = 10 segundos
+
+    </script>
     <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
