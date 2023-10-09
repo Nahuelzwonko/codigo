@@ -1,12 +1,12 @@
 @extends('layouts.template')
 @section('main-content')
-@include('include.banner')
+    @include('include.banner')
     {{-- section 1 --}}
-    <section class="panel w-full h-full  bg-black relative border-none">
+    <section class="panel w-full h-full sm:h-[100vh] bg-black relative border-none">
         @include('include.nav')
         <div class="relative z-10 h-full flex flex-col justify-center items-center text-white">
-            <h1
-                class="mb-4 text-4xl mt-20 sm:mt-0 font-extrabold text-center leading-none tracking-tight text-white md:text-5xl lg:text-6xl  uppercase">
+            <h1 style="font-family: 'Antonio', sans-serif;"
+                class="mb-4 text-6xl mt-20 sm:mt-0 text-center font-extrabold md:text-9xl lg:text-6xl   text-white   uppercase">
                 Digital, Creative & Immersive
             </h1>
             <p class="text-sm text-center">We think and design unique experiences for the innovative products of tomorrow.
@@ -25,7 +25,7 @@
                     autoplay loop>
             </div>
             <div class="p-8 md:p-16 flex flex-col justify-center ">
-                <h2 class="text-sm mb-4 text-white">Bring your ideas to life.</h2>
+                <h2 style="font-family: 'Antonio', sans-serif;" class="text-sm mb-4 text-white">Bring your ideas to life.</h2>
                 <p class="text-3xl md:text-4xl font-extralight text-white">We share our expertise and knowledge to turn your
                     wildest projects into unique experiences. Explore our variety of experiences, each adding a unique
                     dimension to your vision.</p>
@@ -151,8 +151,7 @@
                     <img class="h-auto max-w-full mb-1 " src="{{ asset('images/8a.png') }}" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full mb-1 "
-                        src="{{ asset('images/12a.png') }}" alt="">
+                    <img class="h-auto max-w-full mb-1 " src="{{ asset('images/12a.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -162,7 +161,7 @@
     <section class="w-full h-[120vh] relative bg-white">
         <div class="grid grid-cols-1 md:grid-cols-2 h-[120vh]">
             <div class="p-8 md:p-16 flex flex-col text-start justify-center">
-                <h2 class="text-sm  mb-4 text-black">Our culture.</h2>
+                <h2 style="font-family: 'Antonio', sans-serif;" class="text-sm  mb-4 text-black">Our culture.</h2>
                 <p class="text-3xl   text-black">
                     Humanity and the relentless pursuit of excellence are fundamental elements in the values and culture of
                     our teams. Whether it's in developing a product from its inception to its launch phase or in the work of
@@ -197,13 +196,12 @@
             </div>
             <!-- Contenido del footer (título) -->
             <div class="z-10 text-white text-center">
-                <h1 class="text-7xl font-bold uppercase"><a href="{{ route('contact') }}">Let's talk</a></h1>
+                <h1 style="font-family: 'Antonio', sans-serif;" class="text-7xl font-bold uppercase"><a href="{{ route('contact') }}">Let's <span class="text-[#b4ff00]">talk</span></a></h1>
                 <p class="font-extralight text-sm text-center">We develop your future project together now.</p>
             </div>
-            <div class="absolute bottom-0 left-0 right-0 p-4 text-white text-center font-extralight text-sm">
+            <div style="font-family: 'Antonio', sans-serif;" class="absolute bottom-0 left-0 right-0 p-4 text-white text-center font-extralight text-sm">
                 ©Code<span class="text-[#b4ff00]">Huit</span>
             </div>
         </div>
     </footer>
-
 @endsection

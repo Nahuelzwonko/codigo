@@ -6,8 +6,8 @@
         <div
             class="w-full h-screen flex justify-center sm:justify-between sm:flex-col sm:w-[calc(100% - 120px)] sm:h-[calc(100vh - 120px)] sm:max-h-[60vw] p-16  ">
             <div class="content__first w-full flex ">
-                <h1
-                    class="mt-52 sm:mt-0 font-extrabold text-start sm:text-center leading-none tracking-tight text-white text-6xl sm:text-9xl  uppercase w-2/4 ">
+                <h1 style="font-family: 'Antonio', sans-serif;"
+                    class="mt-52 sm:mt-20 font-extrabold text-start sm:text-center leading-none tracking-tight text-white text-6xl sm:text-9xl  uppercase w-2/4 ">
                     OUR MISSION <span class="text-[#b4ff00]">&</span> VALUES</h1>
                 <div class="w-full h-[50vh] hidden md:block   relative overflow-hidden">
                     <video class="absolute inset-0 w-full h-full object-cover" src="{{ asset('videos/inicio.mkv') }}"
@@ -33,7 +33,7 @@
 
     <section class=" bg-black">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
-            <h2
+            <h2 style="font-family: 'Antonio', sans-serif;"
                 class="mb-8 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 lg:mb-16 dark:text-white md:text-4xl">
                 Let's talk a little about ourselves</h2>
         </div>
@@ -42,7 +42,7 @@
     <section class=" dark:bg-black flex flex-col">
         <div class="py-2 px-4 mx-auto max-w-screen-xl  lg:px-6">
             <div class="max-w-screen-lg text-white sm:text-lg dark:text-gray-400">
-                <h2 class="text-sm  mb-4 text-white "><span class="text-[#b4ff00]">Product</span> vision</h2>
+                <h2 style="font-family: 'Antonio', sans-serif;" class="text-sm  mb-4 text-white "><span class="text-[#b4ff00]">Product</span> vision</h2>
                 <p class="mb-4  font-extralight text-white">Our product vision is one of our greatest strengths.
                     We strive to provide a clear vision and
                     details of your product before even starting your
@@ -54,7 +54,7 @@
         </div>
         <div class="py-2 px-4 mx-auto max-w-screen-xl  lg:px-6">
             <div class="max-w-screen-lg text-white sm:text-lg dark:text-gray-400">
-                <h2 class="text-sm  mb-4 text-white ">The<span class="text-[#b4ff00]"> requirement</span></h2>
+                <h2 style="font-family: 'Antonio', sans-serif;" class="text-sm  mb-4 text-white ">The<span class="text-[#b4ff00]"> requirement</span></h2>
                 <p class="mb-4  font-extralight text-white">Quality is our priority.
                     We design products and services by researching
                     systematically to achieve excellence.
@@ -69,7 +69,7 @@
         </div>
         <div class="py-2 px-4 mx-auto max-w-screen-xl  lg:px-6">
             <div class="max-w-screen-lg text-white sm:text-lg dark:text-gray-400">
-                <h2 class="text-sm  mb-4 text-white "><span class="text-[#b4ff00]"> Human</span> focus</h2>
+                <h2 style="font-family: 'Antonio', sans-serif;" class="text-sm  mb-4 text-white "><span class="text-[#b4ff00]"> Human</span> focus</h2>
                 <p class="mb-4  font-extralight text-white">We put people at the center of
                     Our focus.
                     We believe that listening and empathy are
@@ -83,7 +83,7 @@
         </div>
         <div class="py-2 px-4 mx-auto max-w-screen-xl  lg:px-6">
             <div class="max-w-screen-lg text-white sm:text-lg dark:text-gray-400">
-                <h2 class="text-sm  mb-4 text-white ">AI at the<span class="text-[#b4ff00]"> center </span>of our processes
+                <h2 style="font-family: 'Antonio', sans-serif;" class="text-sm  mb-4 text-white ">AI at the<span class="text-[#b4ff00]"> center </span>of our processes
                 </h2>
                 <p class="mb-4  font-extralight text-white">We put people at the center of
                     Our focus.

@@ -9,7 +9,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="{{ asset('favicon/favicon.png') }}" type="image/x-icon">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500;600;700&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
     <style>
         .swiper {
@@ -36,12 +38,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-        <script>
+    <script>
         // Espera 10 segundos antes de mostrar el banner
-setTimeout(function() {
-    document.getElementById('bottom-banner').style.display = 'block';
-}, 10000); // 10000 milisegundos = 10 segundos
-
+        setTimeout(function() {
+            document.getElementById('bottom-banner').style.display = 'block';
+        }, 10000); // 10000 milisegundos = 10 segundos
     </script>
     <script>
         var swiper = new Swiper(".mySwiper", {

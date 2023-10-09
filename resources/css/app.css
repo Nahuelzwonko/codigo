@@ -1,6 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+/* resources/css/app.css */
+@font-face {
+    font-family: "Codehuit";
+    src: url("/fonts/DevantHorgen-Regular.woff2") format("woff2"),
+        url("/fonts/DevantHorgen-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+.mifuente {
+    font-family: "Codehuit";
+}
+
 :root {
     --gutter: 40px;
     --image-width: 60vw;
@@ -17,8 +32,6 @@ html,
 body {
     margin: 0;
     height: 100%;
-    overflow-scrolling: touch;
-    font-family: Arial, sans-serif;
 }
 h1,
 p {

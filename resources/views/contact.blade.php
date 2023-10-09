@@ -3,9 +3,9 @@
     <section class="panel w-full h-full sm:h-[100vh] bg-black relative border-none">
         @include('include.nav')
         <div class="w-full flex justify-center items-center flex-col">
-            <h1
+            <h1 style="font-family: 'Antonio', sans-serif;"
                 class="mb-4 mt-20 text-center text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                Let's do something awesome together!</h1>
+                Let's do something <span class="text-[#b4ff00]">awesome</span>  together!</h1>
             <p class="mb-6 text-sm font-normal text-white lg:text-sm text-center mt-10 ">We place people at the center of our
                 approach. We believe that listening and empathy are essential to achieving excellent results.
             </p>
