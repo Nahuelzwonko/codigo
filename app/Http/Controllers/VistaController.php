@@ -11,7 +11,20 @@ class VistaController extends Controller
     {
         return view('vista');
     }
-    public function inicioCm(){
+    public function inicioCm()
+    {
         return view('communityManager');
+    }
+    public function communication()
+    {
+        return view('posts.strategic-communication'); 
+    }
+    public function marketing()
+    {
+        return view('posts.advertisingAndMarketing');
+    }
+    public function technology()
+    {
+        return view('posts.technology');
     }
 }

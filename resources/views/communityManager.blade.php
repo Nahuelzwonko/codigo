@@ -77,21 +77,22 @@
     <section class="panel w-full h-[270vh] sm:h-[120vh] bg-black relative">
         <div
             class="grid  p-6 grid-cols-1  mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
+            {{-- comunicacion --}}
             <div class="relative ">
                 <div class="relative overflow-hidden bg-white shadow-md rounded-xl h-full">
                     <div class="  rounded-lg flex justify-center items-center h-full">
                         <div class="flex flex-col items-center justify-center w-full h-full">
                             <div class="p-4 ">
-                                <h1
+                                <h2
                                     class="mb-2 block font-sans text-3xl  leading-snug tracking-normal text-blue-gray-900 antialiased">
                                     strategic
-                                </h1>
+                                </h2>
                                 <h1 style="font-family: 'Antonio', sans-serif; "
                                     class="mb-2 block font-sans text-4xl sm:text-6xl font-extrabold uppercase text-blue-gray-900 antialiased">
                                     communication
                                 </h1>
                             </div>
-                            <a href="#"
+                            <a href="{{ route('communication') }}"
                                 class="mt-3 font-bold text-black hover:text-green-500 inline-flex justify-start items-start">Learn
                                 More
                                 <svg class="bg-[#191A23] text-[#b4ff00] w-7 h-7 ml-2 rounded-2xl" fill="none"
@@ -104,6 +105,7 @@
                     </div>
                 </div>
             </div>
+            {{-- Marketing --}}
             <div class="overflow-hidden bg-[#b4ff00] shadow-md rounded-xl">
                 <div class="relative overflow-hidden bg-[b4ff00] shadow-md rounded-xl h-full">
                     <div class="  rounded-lg flex justify-center items-center h-full">
@@ -118,7 +120,7 @@
                                     marketing
                                 </h1>
                             </div>
-                            <a href="#"
+                            <a href="{{ route('marketing') }}"
                                 class="mt-3 font-bold text-black hover:text-white inline-flex justify-start items-start">Learn
                                 More
                                 <svg class="bg-[#191A23] text-white w-7 h-7 ml-2 rounded-2xl" fill="none"
@@ -131,6 +133,7 @@
                     </div>
                 </div>
             </div>
+            {{-- tech --}}
             <div class="relative">
                 <div class="relative overflow-hidden bg-[#191A23] shadow-md rounded-xl h-full">
                     <div class="  rounded-lg flex justify-center items-center h-full">
@@ -140,12 +143,12 @@
                                     class="mb-2 block font-sans text-3xl  leading-snug tracking-normal text-[#b4ff00] antialiased">
                                     technology
                                 </h1>
-                                <h1 style="font-family: 'Antonio', sans-serif; "
+                                <h2 style="font-family: 'Antonio', sans-serif; "
                                     class="mb-2 block font-sans text-4xl sm:text-6xl font-extrabold uppercase text-[#b4ff00] antialiased">
                                     laboratory
-                                </h1>
+                                </h2>
                             </div>
-                            <a href="#"
+                            <a href="{{ route('technology') }}"
                                 class="mt-3 font-bold text-white hover:text-green-500 inline-flex justify-start items-start">Learn
                                 More
                                 <svg class="bg-[#b4ff00] text-white w-7 h-7 ml-2 rounded-2xl" fill="none"
@@ -158,6 +161,7 @@
                     </div>
                 </div>
             </div>
+            {{-- desabilitado --}}
             <div class="overflow-hidden bg-[#b4ff00] shadow-md rounded-xl">
                 <div class="relative overflow-hidden bg-[b4ff00] shadow-md rounded-xl h-full">
                     <div class="  rounded-lg flex justify-center items-center h-full">
@@ -167,13 +171,13 @@
                                     class="mb-2 block font-sans text-3xl  leading-snug tracking-normal text-white antialiased">
                                     digital
                                 </h1>
-                                <h1 style="font-family: 'Antonio', sans-serif; "
+                                <h1 style="font-family: 'Antonio', sans-serif;"
                                     class="mb-2 block font-sans text-4xl sm:text-6xl font-extrabold uppercase text-white antialiased">
                                     transformation
                                 </h1>
                             </div>
-                            <a href="#"
-                                class="mt-3 font-bold text-black hover:text-white inline-flex justify-start items-start">Learn
+                            <a href="#" @disabled(true)
+                                class="mt-3 font-bold text-gray-500  inline-flex justify-start items-start">Learn
                                 More
                                 <svg class="bg-[#191A23] text-white w-7 h-7 ml-2 rounded-2xl" fill="none"
                                     stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -185,6 +189,7 @@
                     </div>
                 </div>
             </div>
+            {{-- desabilitado --}}
             <div class="relative">
                 <div class="relative overflow-hidden bg-white shadow-md rounded-xl h-full">
                     <div class="  rounded-lg flex justify-center items-center h-full">
@@ -199,8 +204,8 @@
                                     creation
                                 </h1>
                             </div>
-                            <a href="#"
-                                class="mt-3 font-bold text-black hover:text-green-500 inline-flex justify-start items-start">Learn
+                            <a href="#"  @disabled(true)
+                                class="mt-3 font-bold text-gray-400 inline-flex justify-start items-start">Learn
                                 More
                                 <svg class="bg-[#191A23] text-[#b4ff00] w-7 h-7 ml-2 rounded-2xl" fill="none"
                                     stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -212,8 +217,9 @@
                     </div>
                 </div>
             </div>
+            {{-- desabilitado --}}
             <div class="overflow-hidden bg-[#191A23] shadow-md rounded-xl">
-                 <div class="relative overflow-hidden bg-[#191A23] shadow-md rounded-xl h-full">
+                <div class="relative overflow-hidden bg-[#191A23] shadow-md rounded-xl h-full">
                     <div class="  rounded-lg flex justify-center items-center h-full">
                         <div class="flex flex-col items-center justify-center w-full h-full">
                             <div class="p-4 ">
@@ -226,12 +232,12 @@
                                     marketing
                                 </h1>
                             </div>
-                            <a href="#"
-                                class="mt-3 font-bold text-white hover:text-green-500 inline-flex justify-start items-start">Learn
+                            <a href="#" @disabled(true)
+                                class="mt-3 font-bold text-gray-400 inline-flex justify-start items-start">Learn
                                 More
                                 <svg class="bg-[#b4ff00] text-white w-7 h-7 ml-2 rounded-2xl" fill="none"
-                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    class="" viewBox="0 0 24 24">
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                                 </svg>
                             </a>
