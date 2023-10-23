@@ -11,4 +11,7 @@ class VistaController extends Controller
     {
         return view('vista');
     }
+    public function inicioCm(){
+        return view('communityManager');
+    }
 }

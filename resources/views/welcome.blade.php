@@ -1,4 +1,5 @@
 @extends('layouts.template')
+@section('title', 'Welcome | CodeHuit')
 @section('main-content')
     @include('include.banner')
     {{-- section 1 --}}
@@ -47,67 +48,7 @@
     </section>
     {{-- section 4 --}}
     <section class="w-full  bg-black panel">
-        {{-- <div class="w-full flex justify-between flex-col">
-            <div class="py-6 sm:py-8 lg:py-12 w-full">
-                <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-                    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8 items-center mt-20">
-                        <a href="#" class="group relative flex h-48 items-end overflow-hidden rounded-lg  md:h-80">
-                            <img src="{{ asset('images/1.png') }}" loading="lazy"
-                                class="absolute  h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-                            <div
-                                class="pointer-events-none absolute  bg-gradient-to-t  via-transparent to-transparent opacity-50">
-                            </div>
-                            <span
-                                class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg uppercase">Space
-                                | DEV</span>
-                        </a>
-                        <a href="#"
-                            class="group relative flex h-48 items-end overflow-hidden rounded-lg  md:col-span-2 md:h-80">
-                            <img src="{{ asset('images/2.png') }}" loading="lazy"
-                                class="absolute  h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-                            <div
-                                class="pointer-events-none absolute  bg-gradient-to-t  via-transparent to-transparent opacity-50">
-                            </div>
-                            <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">CKFM | DEV |
-                                CM</span>
-                        </a>
-                        <a href="#"
-                            class="group relative flex h-48 items-end overflow-hidden rounded-lg  md:col-span-2 md:h-80">
-                            <img src="{{ asset('images/6.png') }}" loading="lazy"
-                                class="absolute  h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-                            <div
-                                class="pointer-events-none absolute  bg-gradient-to-t  via-transparent to-transparent opacity-50">
-                            </div>
-                            <span
-                                class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg uppercase">benticuaga
-                                | ecommerce | branding</span>
-                        </a>
-                        <a href="#" class="group relative flex h-48 items-end overflow-hidden rounded-lg  md:h-80">
-                            <img src="{{ asset('images/4.png') }}" loading="lazy"
-                                class="absolute  h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-                            <div
-                                class="pointer-events-none absolute  bg-gradient-to-t  via-transparent to-transparent opacity-50">
-                            </div>
-                            <span
-                                class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg uppercase">VIA
-                                VENETO | system</span>
-                        </a>
-                        <!-- image - end -->
-                    </div>
-                </div>
-            </div>
-            <div class="marquee bg-black text-white">
-                <div class="marquee__inner" aria-hidden="true" ref="inner">
-                    <div class="marquee__part uppercase">
-                        Your future project now.
-                    </div>
-                    <div class="marquee__part uppercase">
-                        Your future project now.
-                    </div>
-
-                </div>
-            </div>
-        </div> --}}
+       
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
             <div class="grid">

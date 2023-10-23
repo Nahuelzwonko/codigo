@@ -1,5 +1,4 @@
 @extends('layouts.template')
-
 @section('main-content')
     <section class="flex-col flex justify-center align-center bg-black text-white">
         @include('include.nav')
